@@ -10,7 +10,7 @@ const Button = ({
   return (
     <button
       id={id}
-      className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full px-7 py-3 text-black ${containerClass}`}
+      className={`group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full px-7 py-3 bg-blue-50 text-black ${containerClass}`}
     >
       {leftIcon}
       <span className="relaive include-flex overflow-hidden font-general text-xs uppercase">
