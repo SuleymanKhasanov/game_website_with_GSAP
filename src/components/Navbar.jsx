@@ -75,7 +75,6 @@ const Navbar = () => {
                                     <div key={bar} className={`indicator-line ${isIndicatorActive ? 'active' : ''}`} style={{animationDelay: `${bar * 0.1}s`}}/>
 
                                 ))}
-
                         </button>
                     </div>
                 </nav>
