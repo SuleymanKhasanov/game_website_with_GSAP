@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar.jsx';
 import Features from './components/Features.jsx';
 import Story from './components/Story.jsx';
+import Contacts from "./components/Contacts.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Aboute />
       <Features />
       <Story />
+        <Contacts/>
     </main>
   );
 }
